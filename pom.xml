@@ -26,7 +26,7 @@
     </properties>
 
        
-<distributionManagement>
+<!-- <distributionManagement>
 
     <repository>
         <id>release</id>
@@ -40,7 +40,7 @@
         <url>http://54.210.7.249:8082/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
 
-</distributionManagement>
+</distributionManagement> -->
 
     
     <dependencies>
