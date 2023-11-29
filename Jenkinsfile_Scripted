@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // node {
 //    def mvnHome
 //   stage('Prepare') {
@@ -26,3 +27,33 @@
 //       sh "'${mvnHome}/bin/mvn' install"
 //   }
 // }
+=======
+node {
+   def mvnHome
+  stage('Prepare') {
+      git url: 'https://github.com/atifpasha44/JenkinsTest.git', branch: 'main'
+      mvnHome = tool 'maven'
+   }
+  stage ('Clean') {
+      sh "'${mvnHome}/bin/mvn' clean"
+  }
+  stage ('Validate') {
+      sh "'${mvnHome}/bin/mvn' validate"
+  }
+  stage ('Compile') {
+      sh "'${mvnHome}/bin/mvn' compile"
+  }
+  stage ('Test') {
+      sh "'${mvnHome}/bin/mvn' test"
+  }
+  stage ('Package') {
+      sh "'${mvnHome}/bin/mvn' package"
+  }
+  stage ('Verify') {
+      sh "'${mvnHome}/bin/mvn' verify"
+  }
+  stage ('Install') {
+      sh "'${mvnHome}/bin/mvn' install"
+  }
+}
+>>>>>>> 2b0950efe8d673773300cb24824e4a2bdc11275a
