@@ -28,7 +28,7 @@
   <sonar.organization>devops-testci</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
    <sonar.projectKey>devops-testci_java-webapp</sonar.projectKey>
-  <sonar.login>305094958fb95ca3565931f70cfad354d15f1e50</sonar.login>
+  <sonar.login>e5510d3beff9e6ec13f5773de7af63622190e38b</sonar.login>
         
     </properties>
 
