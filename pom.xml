@@ -19,14 +19,9 @@
         <sonar.projectKey>cloudbinaryio</sonar.projectKey>
         <sonar.login>sqp_ee60244f58bb57abe4bccfbcf177a686037bf14a</sonar.login> -->
 
-          <!-- <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-          <sonar.organization>binaryops</sonar.organization>  
-          <sonar.projectKey>binaryops_javaapps</sonar.projectKey>
-          <sonar.login>274dad7664a55ece78dcfeb5f17862d2eb7b7e0a</sonar.login> -->
 
    <sonar.host.url>https://sonarcloud.io</sonar.host.url>     
   <sonar.organization>devops-testci</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
    <sonar.projectKey>devops-testci_java-webapp</sonar.projectKey>
   <sonar.login>e5510d3beff9e6ec13f5773de7af63622190e38b</sonar.login>
         
