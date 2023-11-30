@@ -2,6 +2,7 @@ pipeline {
     agent any 
     tools {
          maven 'Maven'
+         openjdk 'java'
     }
     stages {
         // stage('Stage-0 : Static Code Analysis') { 
